@@ -1,0 +1,49 @@
+/* reset.css */
+
+/* 1. Set all elements' margin, padding to zero, and box-sizing to border-box */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* 3. Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Remove default image borders */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 5. Set basic body styles */
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* 6. Normalize button styles */
+button, input, select, textarea {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* 7. HTML5 elements display block */
+article, aside, footer, header, nav, section, main {
+  display: block;
+}
